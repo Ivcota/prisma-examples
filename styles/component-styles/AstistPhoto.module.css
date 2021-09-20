@@ -1,0 +1,25 @@
+.img {
+  max-width: 100%;
+}
+.img-text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.42em;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 1.5rem;
+}
+
+.img-holder {
+  position: relative;
+  transition: all;
+  transition-duration: 200ms;
+}
+
+.img-holder:hover {
+  transform: scale(1.03);
+}

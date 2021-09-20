@@ -1,0 +1,28 @@
+.container {
+  background-color: #34495e;
+  min-height: 100vh;
+  padding: 1rem 5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10%;
+  row-gap: 1.5rem;
+  justify-items: center;
+  align-items: center;
+}
+
+/* Small */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 575.98px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
